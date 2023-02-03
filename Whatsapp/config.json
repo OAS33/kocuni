@@ -1,0 +1,68 @@
+{
+    "APP_MODE": "DEVELOPMENT",
+    "UI": {
+        "AVAILABLE_COMMANDS": "",
+        "NEW_USER_MESSAGE": "",
+        "TRIAL_PURCHASED_MESSAGE": "",
+        "PURCHASE_TRIAL_COMMAND": "",
+        "FAILED_TO_GENERATE_STRIPE_SESSION": "",
+        "USER_BALANCE_NONE": "",
+        "PURCHASE_COMMAND": "",
+        "PRE_PURCHASE_TEXT": "",
+        "CREDITS_PURCHASED": "",
+        "USER_BLOCKED_MSG": "",
+        "COUPON_CODE_USED": "",
+        "COMMANDS": {
+            "reset": "",
+            "support": "",
+            "balance": "",
+            "credits": ""
+        }
+    },
+    "BACKEND": {
+        "DEBUG": 1,
+        "WHATSAPP": {
+            "TOKEN": "",
+            "VERIFY_TOKEN": "",
+            "NUMBER": "",
+            "NUMBER_ID": ""
+        },
+        "AI": {
+            "OPENAI_API_KEY": "",
+            "START_PROMPT": "",
+            "MODEL": ""
+        },
+        "STRIPE": {
+            "API_KEY": "",
+            "DOMAIN": "",
+            "SUCCESS_URL": "",
+            "WEBHOOK_SECRET": "",
+            "PRODUCTS": {
+                "DEVELOPMENT": {
+                    "": {
+                        "id": "",
+                        "price": "",
+                        "credits": ""
+                    },
+                    ".": {
+                        "id": "",
+                        "price": "",
+                        "credits": ""
+                    }
+                },
+                "LIVE": {
+                    "": {
+                        "id": "",
+                        "price": "",
+                        "credits": ""
+                    },
+                    ".": {
+                        "id": "",
+                        "price": "",
+                        "credits": ""
+                    }
+                }
+            }
+        }
+    }
+}

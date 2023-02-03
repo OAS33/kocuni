@@ -1,0 +1,23 @@
+{
+    "REDDIT": {
+        "CREDENTIALS": {
+            "USERNAME": "",
+            "PASSWORD": "",
+            "CLIENT_ID": "",
+            "CLIENT_SECRET": ""
+        },
+        "SUBREDDITS": [],
+        "POST": {
+            "MIN_COMMENTS": 5,
+            "MIN_UPVOTES": 20,
+            "MIN_UPVOTE_RATIO": 0.35,
+            "BLACKLIST": [
+                "r/",
+                "reddit"
+            ]
+        },
+        "COMMENT": {
+            "NUMBER": 6
+        }
+    }
+}
